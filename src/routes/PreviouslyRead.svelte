@@ -18,7 +18,7 @@
 
 <div class="basis-2/3 bg-slate-200 pb-10">
     <h1 class="text-4xl p-10 pt-5">Previously Read</h1>
-    <div class="pl-20 pr-20 flex flex-row gap-x-12 justify-between">
+    <div class="flex flex-row gap-x-12 justify-evenly">
         {#each prevRead as read}
         <div>
             <img src={read.source} alt={read.title} />
