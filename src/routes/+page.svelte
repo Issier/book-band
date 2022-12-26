@@ -1,3 +1,17 @@
-<div class="container text-center min-h-screen mx-auto">
-    <h1 class="text-3xl font-bold underline min-h-screen">Hello world!</h1>
+<script>
+	import ClubOverview from "./ClubOverview.svelte";
+	import CurrentBook from "./CurrentBook.svelte";
+	import PreviouslyRead from "./PreviouslyRead.svelte";
+	import Votes from "./Votes.svelte";
+
+</script>
+<div>
+    <div class="flex flex-row">
+        <ClubOverview />
+        <CurrentBook />
+    </div>
+    <div class="flex flex-row">
+        <PreviouslyRead />
+        <Votes />
+    </div>
 </div>
