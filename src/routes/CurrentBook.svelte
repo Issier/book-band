@@ -9,8 +9,8 @@
 
 <div class="basis-2/3 bg-slate-100 pb-10">
     <h1 class="text-4xl p-10 pt-5">Currently Reading: <br /><span class="text-3xl">{bookTitle}</span></h1>
-    <div class="flex flew-row">
-        <img class="pl-10" src="invis.jpg" alt="book cover">
+    <div class="flex flex-row">
+        <img class="pl-10 basis-1/3" src="invis.jpg" alt="book cover">
         <p class="text-xl pl-5 pr-10">{description} {description} {description}</p>
     </div>
     <h2 class="text-2xl pl-10 pt-5">Current Session</h2>

@@ -6,11 +6,11 @@
 
 </script>
 <div>
-    <div class="flex flex-row">
+    <div class="flex lg:flex-row flex-col">
         <ClubOverview />
         <CurrentBook />
     </div>
-    <div class="flex flex-row">
+    <div class="flex lg:flex-row flex-col">
         <PreviouslyRead />
         <Votes />
     </div>
