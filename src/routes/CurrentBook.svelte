@@ -7,7 +7,7 @@
     let endChapter = 6
 </script>
 
-<div class="basis-2/3 bg-slate-100 pb-10">
+<div class="basis-2/3 bg-slate-100 pb-10 border-2 border-bb-blue">
     <h1 class="text-4xl p-10 pt-5">Currently Reading: <br /><span class="text-3xl">{bookTitle}</span></h1>
     <div class="flex flex-row">
         <img class="pl-10 basis-1/3" src="invis.jpg" alt="book cover">

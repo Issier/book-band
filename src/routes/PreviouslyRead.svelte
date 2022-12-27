@@ -16,7 +16,7 @@
     }
 </script>
 
-<div class="basis-2/3 bg-slate-200 pb-10">
+<div class="basis-1/2 bg-slate-200 pb-10 border-2 border-bb-blue">
     <h1 class="text-4xl p-10 pt-5">Previously Read</h1>
     <div class="flex flex-row gap-x-12 justify-evenly">
         {#each prevRead as read}
